@@ -1,0 +1,7 @@
+!pip install yfinance==0.2.4
+# !pip install pandas==1.3.3
+import yfinance as yf
+import pandas as pd
+
+Laureate = yf.Ticker("LAUR")
+!wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork/data/Laureate.json
